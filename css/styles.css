@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #b73c8f; /* Pink color for the heading */
+}
+
+label {
+    color: #b73c8f; /* Pink color for labels */
+}
+
+input[type="number"], button {
+    margin: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b73c8f; /* Pink color for input fields and button */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="number"]:focus, button:focus {
+    outline: none;
+}
+
+input[type="number"]::placeholder {
+    color: #b73c8f; /* Pink color for placeholder text */
+}
+
+button:hover {
+    background-color: #6b224e; /* Darker pink color on hover */
+}
+
+#result {
+    border: none;
+    border-bottom: 1px solid #b73c8f;
+    padding: 8px;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+#result:focus {
+    outline: none;
+}
+
